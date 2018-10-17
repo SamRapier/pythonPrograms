@@ -31,4 +31,5 @@ def firstRecurring(givenString):
 			return char
 		charDict[char] = 1
 
-print(firstRecurring('DBCBA'))
+if __name__ == "__main__":
+	print(firstRecurring('DBCBA'))
